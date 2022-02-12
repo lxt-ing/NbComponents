@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "dev": "webpack serve --open --config ./build/webpack.config.js",
+    "build": "webpack --config ./build/webpack.config.build.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.2",
+    "@babel/preset-env": "^7.16.11",
+    "@vue/babel-plugin-jsx": "^1.1.1",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.6.0",
+    "html-webpack-plugin": "^5.5.0",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "style-loader": "^3.3.1",
+    "vue-loader": "^17.0.0",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.2.30",
+    "vue": "^3.2.29"
+  }
+}
